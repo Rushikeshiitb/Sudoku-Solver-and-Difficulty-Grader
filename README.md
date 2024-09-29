@@ -30,7 +30,12 @@ The project incorporates various Sudoku solving techniques to analyze and evalua
 ## 4. Difficulty Rating
 The difficulty rating is determined based on the number of Naked Singles, Naked Doubles, Naked Triples, Hidden Singles, and Hidden Doubles in the puzzle.
 The more advanced techniques (like Naked and Hidden Doubles/Triples) required to solve the puzzle indicate a higher level of difficulty.
-## 5. Conclusion
+
+## 5. Future Improvements
+- **User Interface**: Adding a Visual Interface to interact with the Sudoku Solver
+- **Advanced Techniques**: Incorporating more advanced solving techniques such as x-wings and swordfish for even more complex puzzles.
+
+## 6. Conclusion
 This project not only provides a solution to any given Sudoku puzzle but also offers a unique feature of difficulty rating, making it useful for users who want to understand the complexity of the puzzle. By implementing techniques commonly used in advanced Sudoku solving strategies, this project enhances the conventional backtracking solver.
 
 
