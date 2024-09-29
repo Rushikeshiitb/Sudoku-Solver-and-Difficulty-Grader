@@ -23,6 +23,8 @@ The project incorporates various Sudoku solving techniques to analyze and evalua
 - **Naked Triples**: Similar to Naked Doubles but for triples of cells. Implemented in the naked_triples function.
 - **Hidden Singles**: Identifies numbers that can only be placed in one cell of a row, column, or grid. Implemented in the hidden_singles function.
 - **Hidden Doubles**: Identifies pairs of numbers that can only be placed in two specific cells of a row, column, or grid. Implemented in the hidden_doubles function.
+- **Hidden Triples**: In hidden triples, three numbers appear as candidates in exactly three cells within a row, column, or block. Although they are not the only candidates in those cells, identifying hidden triples helps in narrowing down possibilities. This further improves the efficiency of solving the puzzle and provides an additional difficulty metric.
+- **Empty Spaces**: The algorithm counts the number of empty spaces in the puzzle at the start. A puzzle with more empty spaces generally tends to be harder to solve.
 
   
 ## 4. Difficulty Rating
